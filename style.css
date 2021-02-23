@@ -5,9 +5,10 @@
   font-family: "Roboto", sans-serif;
 }
 
-a,
-li {
+a {
   text-decoration: none;
+}
+li {
   list-style: none;
 }
 button {
@@ -66,7 +67,7 @@ header .icons {
   margin-bottom: 12px;
 }
 
-.info .title a {
+.info .title .hashtag a {
   margin-right: 12px;
   color: #0066ff;
   font-size: 12px;
@@ -169,6 +170,7 @@ header .icons {
 }
 .upnext .item a {
   display: flex;
+  color: gray;
 }
 
 .upnext .item .item-picture {
